@@ -1,0 +1,6 @@
+Bir solution içinde birden fazla proje kurulumunda Entity Framework'ün ortak kullanılması
+
+
+1. App.Config dosyalarını startup tagi hariç aynı yap.
+2. EntityFramework ve EntityFramework.SqlServer dll lerini reference olarak diğer projeye de ekle.
+3. Diğer projede System.Data.Entity ve System.Data.EntityDesign ı reference olarak ekle.
